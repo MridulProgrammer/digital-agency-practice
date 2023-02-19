@@ -150,3 +150,27 @@ body{
     width: 35%;
 }
 
+.call-icons{
+    width: 90px;
+}
+
+.appointment-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: -70px;
+
+}
+
+.app-description{
+    width: 75%;
+}
+.app-description-font{
+    font-size: 20px;
+}
