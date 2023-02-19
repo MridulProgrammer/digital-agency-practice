@@ -75,6 +75,9 @@ body{
  
     width: 100%;
     height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-image: url("../asset/image/footer-bg.png"),
     linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
     background-blend-mode: overlay;
@@ -120,3 +123,30 @@ body{
 .more-details{
     padding: 20px;
 }
+.service-up{
+    display: flex;
+}
+.service-down{
+    display: flex;
+}
+
+.service{
+    padding: 50px;
+    background: white;
+    box-shadow: 4px 4px 8px gray;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.service-logo{
+    width: 50%;
+    padding-bottom: 10px;
+}
+.service-left-container{
+    width: 35%;
+}
+
